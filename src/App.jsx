@@ -15,22 +15,22 @@ export default () => (
 
     <div className="Cards">
 
-        <Card titulo="#4 - Desafio aleatório">
+        <Card titulo="#4 - Desafio aleatório" color="#FA6900">
             <Aleatorio min={1} max={60} />
         </Card>
 
-        <Card titulo="#3- Fragmento">
+        <Card titulo="#3- Fragmento" color="#E94C6F">
             <Fragmento />
         </Card>
 
-        <Card titulo="#2- Com pârametro">
+        <Card titulo="#2- Com pârametro" color="#E8B71A">
             <ComParametro 
                 titulo="Situação do Aluno"
                 aluno="Pedro Silva"
                 nota={9.3} />
         </Card>
 
-        <Card titulo="#01 - Primeiro componente">
+        <Card titulo="#01 - Primeiro componente" color="#588C73">
             <Primeiro></Primeiro>
         </Card>
 
