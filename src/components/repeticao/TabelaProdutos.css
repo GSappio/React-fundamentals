@@ -4,8 +4,9 @@
 }
 
 .TabelaProdutos th {
-    background-repeat: #283cae;
-    color: #fff;
+    background-color: #283cae;
+    color: rgb(0, 0, 0);
+    
 }
 
 .TabelaProdutos.Par {
@@ -13,5 +14,5 @@
 }
 
 .TabelaProdutos.Impar {
-    background-color: #ccc;
+    background-color: #cccc;
 }
