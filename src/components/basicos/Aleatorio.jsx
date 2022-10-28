@@ -1,4 +1,5 @@
 import React from "react";
+import Familia from "./Familia";
 
 export default (props) => {
 
@@ -16,3 +17,4 @@ export default (props) => {
 
     )
 }
+

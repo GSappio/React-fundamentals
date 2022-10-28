@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-import "/Card.css";
-import React from "react";
-
-export default (props) => {
-    return <div>
-        <div>Contéudo</div>
-        <div>{props.titulo}</div>
-    </div>;
-
-
-=======
 import "./Card.css"
 import React from "react";
 
@@ -30,5 +18,4 @@ export default (props) => {
             
         </div>
     );
->>>>>>> 05ddfeb8067f0bdeccfffe894b18ae3f1ded8c2d
 };
