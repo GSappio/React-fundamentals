@@ -2,6 +2,7 @@ import './App.css';
 
 import Card from './components/layout/Card';
 
+import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
@@ -22,6 +23,10 @@ export default () => (
 
 
     <div className="Cards">
+        <Card titulo="#11 - Componente Controlado" color="#E45F56">
+           <Input></Input>
+        </Card>
+
         <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
            <IndiretaPai></IndiretaPai>
         </Card>
